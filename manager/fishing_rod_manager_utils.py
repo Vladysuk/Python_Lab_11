@@ -1,11 +1,11 @@
 from typing import List
 
-from model.abstract_fishing_rod import AbstractFishingRod
-from model.float_rod import FloatRod
-from model.ice_rod import IceRod
-from model.season import Season
-from model.sort_type import SortType
-from model.spinning import Spinning
+from models.abstract_fishing_rod import AbstractFishingRod
+from models.float_rod import FloatRod
+from models.ice_rod import IceRod
+from models.season import Season
+from models.sort_type import SortType
+from models.spinning import Spinning
 
 
 class FishingRodManagerUtils:
@@ -13,7 +13,7 @@ class FishingRodManagerUtils:
     @staticmethod
     def sort_by_length_in_meters(rods_list: List[AbstractFishingRod], sort_type: SortType):
         """
-        >>> rods_list = [FloatRod(Season.SUMMER, 2, 1, 4, 0.2, "Very coll"),\
+        >>> rods_list = [FloatRod(Season.SUMMER, 2, 1, 4, 0.2, "Very cool"),\
         IceRod(Season.WINTER, 1, 0.5, 3, 0.4, "Maran"),\
         Spinning(Season.SUMMER, 2, 1, 2, 0.3, "Osada"),\
         IceRod(Season.WINTER, 1.4, 0.7, 4, 0.2, "Maran")]

@@ -1,7 +1,7 @@
-from abc import ABC
+# from abc import ABC
 
 
-class AbstractFishingRod(ABC):
+class AbstractFishingRod:
 
     def __init__(self, season, length_in_meters, folded_length_in_meters, number_of_sections, weight_in_kg):
         self.season = season

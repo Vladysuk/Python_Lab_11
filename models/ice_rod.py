@@ -1,4 +1,4 @@
-from model.abstract_fishing_rod import AbstractFishingRod
+from models.abstract_fishing_rod import AbstractFishingRod
 
 
 class IceRod(AbstractFishingRod):

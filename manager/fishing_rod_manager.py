@@ -1,8 +1,8 @@
 from manager import fishing_rod_manager
-from model.float_rod import FloatRod
-from model.ice_rod import IceRod
-from model.season import Season
-from model.spinning import Spinning
+from models.float_rod import FloatRod
+from models.ice_rod import IceRod
+from models.season import Season
+from models.spinning import Spinning
 
 
 class FishingRodManager:
